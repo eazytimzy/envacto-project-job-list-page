@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joby</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+
+
+  </head>
+  <body>
+    <section class="oops">
+    <nav>
+      <div class="container">
+        <div class="flex">
+          <div class="img-wrapper">
+            <img src="./images/joby.png" width="200px" alt="logo" />
+          </div>
+
+          <button class="hamburger" id="hamburger">
+            <img
+              class="open"
+              src="./images/icon-hamburger.svg"
+              alt="icon-hamburger"
+            />
+            <img
+              class="close"
+              src="./images/icon-close.svg"
+              alt="icon-close "
+            />
+          </button>
+
+          <ul id="menu">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="#">Jobs</a>
+            </li>
+            <li>
+              <a href="#">Categories</a>
+            </li>
+            <li class="btn btn-primary">
+              <a href="#">Sign up</a>
+            </li>
+            <li class="btn btn-secondary">
+              <a href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+    <header>
+      <div class= "container">
+        <div class="flex align-start reverse-mobile">
+          <div>
+            <h1>Contact Us.</h1>
+            <a class="nav-link link" href="#">Home</a> >
+            <span class="nav-link">Contact</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="quest2">
+      <center>
+          <h1 style="color: white; padding-top: 10px;">Explore and choose from the newest of job postings.</h1>
+          <p>Find jobs, create trackable resumes and enrich your applications</p>
+        </center>
+    </div>
+    <main>
+     
+      <!-- banner section -->
+      <span class="span1">
+        <span id="rj">Recent Jobs</span>
+        <span class="btns">
+        <button class="active">All</button>
+        <button id="bit" onclick="document.getElementById('it').style.background ='#e30c0c'">Internship</button>
+        <button id="bpt"onclick="document.getElementById('pt').style.background ='#2a88cc'">part Time</button>
+        <button id="bft" onclick="document.getElementById('ft').style.background ='#29ac09'">Full Time</button>
+      </span>
+      </span>
+      <center>
+      <p > <h1 id="mobview">Recent Jobs</h1></p>
+    </center>
+      <section class="job-list">
+        <!-- <div class="quest2">
+          <center>
+              <h2 style="color: white; padding-top: 10px;">Got a question?</h2>
+              <p>Check out our FAQ, send us an email or call us at +1(26384748495898)</p>
+            </center>
+        </div> -->
+        <!-- <h2>Explore and choose from the newest of job postings.</h2>
+        <h3>Find jobs, create trackable resumes and enrich your applications</h3> -->
+        <div class="list-cards">
+          <!--container for all cards -->
+          <div id="ft" class="jd-crd">
+            <!-- card-->
+            <div class="crd-top">
+              <div class="jb-lg"><img src="./images/Rectangle 21.png" /></div>
+              <div class="desc">
+                <h3>Web Designer</h3>
+                <span class="cpn-nm">Pintrest</span>
+                <span class="location">
+                  <img src="./images/icons8_marker_48px_4 1.png" alt="location" class="marker" /> New
+                  Orleans,USA</span
+                >
+              </div>
+              <div class="cond bg-green">Fulltime</div>
+            </div>
+            <div class="crd-btm">
+              <p class="cat">Catogories: <span>Tech Programming</span></p>
+            </div>
+          </div>
+          <div id="pt" class="jd-crd">
+            <!-- card-->
+            <div class="crd-top">
+              <div class="jb-lg"><img src="./images/Rectangle 22.png" /></div>
+              <div class="desc">
+                <h3>Data Analyst</h3>
+                <span class="cpn-nm">Pintrest</span>
+                <span class="location">
+                  <img src="./images/icons8_marker_48px_4 1.png" alt="location" class="marker" />New
+                  Orleans,USA</span
+                >
+              </div>
+              <div class="cond bg-blue">Part Time</div>
+            </div>
+            <div class="crd-btm">
+              <p class="cat">Catogories: <span>Tech Programming</span></p>
+            </div>
+          </div>
+          <div id="ft" class="jd-crd">
+            <!-- card-->
+            <div class="crd-top">
+              <div class="jb-lg"><img src="./images/Rectangle 23.png" /></div>
+              <div class="desc">
+                <h3>Web Designer</h3>
+                <span class="cpn-nm">Pintrest</span>
+                <span class="location">
+                  <img src="./images/icons8_marker_48px_4 1.png" alt="location" class="marker" />New
+                  Orleans,USA</span
+                >
+              </div>
+              <div class="cond bg-green">Fulltime</div>
+            </div>
+            <div class="crd-btm">
+              <p class="cat">Catogories: <span>Tech Programming</span></p>
+            </div>
+          </div>
+          <div id="ft" class="jd-crd">
+            <!-- card-->
+            <div class="crd-top">
+              <div class="jb-lg"><img src="./images/bmw_logo_PNG19707 1.png" /></div>
+              <div class="desc">
+                <h3>Web Designer</h3>
+                <span class="cpn-nm">Pintrest</span>
+                <span class="location">
+                  <img src="./images/icons8_marker_48px_4 1.png" alt="location" class="marker" />New
+                  Orleans,USA</span
+                >
+              </div>
+              <div class="cond bg-green">Fulltime</div>
+            </div>
+            <div class="crd-btm">
+              <p class="cat">Catogories: <span>Tech Programming</span></p>
+            </div>
+          </div>
+          <div id="it" class="jd-crd">
+            <!-- card-->
+            <div class="crd-top">
+              <div class="jb-lg"><img src="./images/Group 35.png" /></div>
+              <div class="desc">
+                <h3>Internship</h3>
+                <span class="cpn-nm">HNG</span>
+                <span class="location">
+                  <img src="./images/icons8_marker_48px_4 1.png" alt="location" class="marker" />New
+                  Orleans,USA</span
+                >
+              </div>
+              <div class="cond bg-red">Internship</div>
+            </div>
+            <div class="crd-btm">
+              <p class="cat">Catogories: <span>Tech Programming</span></p>
+            </div>
+          </div>
+          <div id="ft" class="jd-crd">
+            <!-- card-->
+            <div class="crd-top">
+              <div class="jb-lg"><img src="./images/Rectangle 21.png" /></div>
+              <div class="desc">
+                <h3>Web Designer</h3>
+                <span class="cpn-nm">Pintrest</span>
+                <span class="location">
+                  <img src="./images/icons8_marker_48px_4 1.png"alt="location" class="marker" />New
+                  Orleans,USA</span
+                >
+              </div>
+              <div class="cond bg-green">Fulltime</div>
+            </div>
+            <div class="crd-btm">
+              <p class="cat">Catogories: <span>Tech Programming</span></p>
+            </div>
+          </div>
+          <div id="ft" class="jd-crd">
+            <!-- card-->
+            <div class="crd-top">
+              <div class="jb-lg"><img src="./images/Rectangle 21.png" /></div>
+              <div class="desc">
+                <h3>Web Designer</h3>
+                <span class="cpn-nm">Pintrest</span>
+                <span class="location">
+                  <img src="./images/icons8_marker_48px_4 1.png" alt="location" class="marker" /> New
+                  Orleans,USA</span
+                >
+              </div>
+              <div class="cond bg-green">Fulltime</div>
+            </div>
+            <div class="crd-btm">
+              <p class="cat">Catogories: <span>Tech Programming</span></p>
+            </div>
+          </div>
+          <div id="pt" class="jd-crd">
+            <!-- card-->
+            <div class="crd-top">
+              <div class="jb-lg"><img src="./images/Rectangle 22.png" /></div>
+              <div class="desc">
+                <h3>Data Analyst</h3>
+                <span class="cpn-nm">Pintrest</span>
+                <span class="location">
+                  <img src="./images/icons8_marker_48px_4 1.png" alt="location" class="marker" />New
+                  Orleans,USA</span
+                >
+              </div>
+              <div class="cond bg-blue">Part Time</div>
+            </div>
+            <div class="crd-btm">
+              <p class="cat">Catogories: <span>Tech Programming</span></p>
+            </div>
+          </div>
+          <div id="ft" class="jd-crd">
+            <!-- card-->
+            <div class="crd-top">
+              <div class="jb-lg"><img src="./images/Rectangle 23.png" /></div>
+              <div class="desc">
+                <h3>Web Designer</h3>
+                <span class="cpn-nm">Pintrest</span>
+                <span class="location">
+                  <img src="./images/icons8_marker_48px_4 1.png" alt="location" class="marker" />New
+                  Orleans,USA</span
+                >
+              </div>
+              <div class="cond bg-green">Fulltime</div>
+            </div>
+            <div class="crd-btm">
+              <p class="cat">Catogories: <span>Tech Programming</span></p>
+            </div>
+          </div>
+          <div  id="ft"class="jd-crd">
+            <!-- card-->
+            <div class="crd-top">
+              <div class="jb-lg"><img src="./images/bmw_logo_PNG19707 1.png" /></div>
+              <div class="desc">
+                <h3>Web Designer</h3>
+                <span class="cpn-nm">Pintrest</span>
+                <span class="location">
+                  <img src="./images/icons8_marker_48px_4 1.png" alt="location" class="marker" />New
+                  Orleans,USA</span
+                >
+              </div>
+              <div class="cond bg-green">Fulltime</div>
+            </div>
+            <div class="crd-btm">
+              <p class="cat">Catogories: <span>Tech Programming</span></p>
+            </div>
+          </div>
+          <div  id="it"class="jd-crd">
+            <!-- card-->
+            <div class="crd-top">
+              <div class="jb-lg"><img src="./images/Group 35.png" /></div>
+              <div class="desc">
+                <h3>Internship</h3>
+                <span class="cpn-nm">HNG</span>
+                <span class="location">
+                  <img src="./images/icons8_marker_48px_4 1.png" alt="location" class="marker" />New
+                  Orleans,USA</span
+                >
+              </div>
+              <div class="cond bg-red">Internship</div>
+            </div>
+            <div class="crd-btm">
+              <p class="cat">Catogories: <span>Tech Programming</span></p>
+            </div>
+          </div>
+          <div id="ft" class="jd-crd">
+            <!-- card-->
+            <div class="crd-top">
+              <div class="jb-lg"><img src="./images/Rectangle 21.png" /></div>
+              <div class="desc">
+                <h3>Web Designer</h3>
+                <span class="cpn-nm">Pintrest</span>
+                <span class="location">
+                  <img src="./images/icons8_marker_48px_4 1.png"alt="location" class="marker" />New
+                  Orleans,USA</span
+                >
+              </div>
+              <div class="cond bg-green">Fulltime</div>
+            </div>
+            <div class="crd-btm">
+              <p class="cat">Catogories: <span>Tech Programming</span></p>
+            </div>
+          </div>
+        </div>
+
+    </main>
+   <center>
+    <div class="pagination">
+           <a href="#">&laquo;</a>
+           <a  class="active" href="#">1</a>
+           <a  href="#">2</a>
+           <a href="#">3</a>
+           <a href="#">4</a>
+           <a href="#">5</a>
+           <a href="#">6</a>
+           <a href="#">&raquo;</a>
+      </div>
+    </center>
+    
+    <div class="engage">
+      <h4 class="subscribe"><b> SUBSCRIBE FOR OFFERS</b></h4>
+      <input class="sub-mail" type="text" placeholder="Your email">
+      <button><a href="#"></a>submit</a></button>
+  </div>
+    <div class="quest">
+      <center>
+          <h2 style="color: white; padding-top: 10px;">Got a question?</h2>
+          <p>Check out our FAQ, send us an email or call us at +1(26384748495898)</p>
+        </center>
+    </div>
+
+    <footer>
+      <div class="container">
+          <div class="flex bottom-border">
+              <div>
+                  <img src="./images/jobywhite.png" width="200px" alt="joby">
+              </div>
+          </div>
+
+          <div class="flex">
+              <div>
+                  <h4>Information</h4>
+                  <ul>
+                      <li>
+                          <a href="#">About us</a>
+                      </li>
+                      <li>
+                          <a href="#">Contact us</a>
+                      </li>
+                      <li>
+                          <a href="#">Terms & Conditions</a>
+                      </li>
+                  </ul>
+              </div>
+
+              <div>
+                  <h4>Response Links</h4>
+                  <ul>
+                      <li>
+                          <a href="#">Support</a>
+                      </li>
+                      <li>
+                          <a href="#">Offers</a>
+                      </li>
+                  </ul>
+              </div>
+
+              <ul class="flex">
+              <li>
+                <a href="#">
+                    <img src="./images/icons8_instagram_60px_2 1.png" width="50px" alt="instagram">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                    <img src="./images/icons8_facebook_old_60px_3 1.png" width="50px" alt="facebook">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                    <img src="./images/icons8_twitter_60px 1.png" width="50px" alt="twitter">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                    <img src="./images/icons8_linkedin_48px 1.png" width="50px" alt="linkedIn">
+                </a>
+              </li>
+              </ul>
+          </div>
+      </div>
+</footer>
+  </body>
+  <script src="main.js"></script>
+</html>
