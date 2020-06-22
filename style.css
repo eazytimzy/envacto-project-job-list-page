@@ -426,12 +426,12 @@
 }
 /* #ft{
   background-color: rgb(231, 39, 39); */
-}
+
 .pagination a.active {
   background-color: #2a88cc;
   color: white;
   border-radius: 3px;
-  margin-left: 10px;
+  margin-left: 2px;
   border-style: groove;
   border-color: #2a88cc;
   border-width: 1px;
@@ -448,7 +448,7 @@
   border-color: #2a88cc;
   border-style:groove;
   border-width: 1px;
-  margin-left: 10px;
+  margin-left: 2px;
 }
 
 .span1{
@@ -1026,6 +1026,7 @@
     .btn-gp .btn {
       width: 150px;
     }
+   
     .banner {
       flex: 1 0 auto;
       display: flex;
@@ -1293,6 +1294,7 @@
   
   @media screen and (max-width: 667px) {
 
+
     .span1{
       display: none;
     }
@@ -1306,6 +1308,11 @@
   
     .call {
       font-size: 40px;
+    }
+    .pagination a {
+      color: black;
+      padding: 4px 8px;
+      
     }
   
     header {
